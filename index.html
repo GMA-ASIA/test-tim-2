@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NextMaven AI | 香港 AI 自動化專家</title>
+    <meta name="description" content="NextMaven AI - 幫助香港中小企自動化業務流程，節省成本，提升效率。" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Fonts: Apple system fonts are default, but we can add Inter as fallback/enhancement -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                primary: '#1E3A5F', // Blue Queen
+                secondary: '#64B5F6',
+                accent: '#00D4AA', // Teal Green
+                dark: '#1D1D1F', // Apple Dark
+                light: '#F5F5F7', // Apple Light
+              }
+            },
+            fontFamily: {
+              sans: [
+                'SF Pro Display', 
+                '-apple-system', 
+                'BlinkMacSystemFont', 
+                'PingFang HK', 
+                'Noto Sans TC', 
+                'Microsoft JhengHei', 
+                'Inter', 
+                'sans-serif'
+              ],
+            },
+            boxShadow: {
+              'apple-card': '0 4px 24px rgba(30, 58, 95, 0.08)',
+              'apple-hover': '0 12px 32px rgba(30, 58, 95, 0.12)',
+              'glow': '0 0 20px rgba(0, 212, 170, 0.4)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      /* Hide scrollbar for cleaner look in some containers */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+</head>
+  <body class="bg-white text-brand-dark">
+    <div id="root"></div>
+  </body>
+</html>
